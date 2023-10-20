@@ -7,9 +7,9 @@ output "public" {
 }
 
 output "node_role" {
-  value = module.kubernetes.node_role
+  value = module.iam.node_role
 }
 
 output "demo_role" {
-  value = module.kubernetes.demo_role
+  value = module.iam.demo_role
 }

@@ -1,3 +1,4 @@
-module "kubernetes" {
-  source = "git@github.com:wumine2/test-eks-deployment.git/iam-roles"
+module "iam" {
+  source = "git@github.com:wumine2/test-eks.git//iam-roles"
+  
 }
